@@ -1,0 +1,1962 @@
+/* بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    -moz-box-sizing: border-box;
+}
+/* start header  */
+header{
+    height: auto;
+    width: 100%;
+
+}
+/* start div one  */
+.search{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 120px;
+  position: relative;
+
+}
+.sr{
+    margin-left: 80px;
+    color: rgba(0,0,0,.5);  
+    font-size: 17px;  
+}
+.sr input {
+    border-style: none;
+    font-size: 16px;
+    outline: none;
+    position: absolute;
+    left: 115px;
+}
+.srr{
+    margin-right: 90px;
+    color: rgba(0,0,0,.5);    
+    font-size: 17px;  
+width: 6%;
+display: flex;
+justify-content: space-around;
+}
+.srrr{
+    border: 2px solid black;
+    color: rgba(0,0,0,.5);  
+    font-size: 17px;  
+    padding: 7px;
+    display: flex;
+  
+}
+.srrrr{
+    color: white;
+    width: 20px;
+height: 20px;
+    position: absolute;
+    border-radius: 130px;
+    background-color: rebeccapurple;
+    right: 85px;
+    top: 27px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    display:flex ;
+
+}
+.srrr:hover {
+    transform: translate(2px, 2px);
+    background-color: rebeccapurple;
+}
+.srr  :hover {
+    transform: translate(3px, 3px);
+    color: rebeccapurple;
+}
+
+/* end div one in header */
+
+
+/* start navabar  */
+nav{
+    height: 75px;
+    
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-left: 270px;
+margin-right: 270px;
+position: relative;
+}
+nav a {
+    text-decoration: none;
+    color: rgba(0,0,0,.5);
+    font-size: large;
+
+}
+.r{
+    position: absolute;
+    left: 151px;
+    top: 35px;
+    color: rebeccapurple;
+}
+.t{
+    position: absolute;
+    top: 35px;
+    left: 289px;
+}
+.home{
+    color: rebeccapurple;
+}
+nav a:hover {
+    transform: translate(5px, 5px);
+    color: rebeccapurple;
+
+}
+/* end of navabar  */
+
+
+/* start section one  */
+.sec{
+height: 700px ;
+background-color: aqua;
+position: relative;
+
+}
+.shos{
+    position: absolute;
+    bottom: 120px;
+    left: 90px;
+}
+.sho{
+    position: absolute;
+    bottom: 260px;
+    right: 185px;
+}
+.sho p {
+    font-size: 40px;
+    color: black;
+font-family: sans-serif;
+}
+.sho span {
+font-size: 25px;
+
+color: rgb(105, 115, 115);
+
+}
+.shopnow{
+    position: absolute;
+    bottom: 190px;
+    right: 540px;
+padding: 7px;
+display: flex;
+justify-content: center;
+}
+.shopnow :hover{
+    transform: translate(4px, 4px);
+
+}
+.shopnow button{
+    text-decoration: none;
+    color:white;
+    background-color: rebeccapurple;
+font-size: 12PX;
+padding: 10px;
+border: none;
+}
+
+/* end of header  */
+
+/* start section two  */
+.sec2{
+    height: 300px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: relative;
+}
+.right{
+    width: 22%;
+line-height: 26px;
+padding-left: 64px;
+}
+.med{
+    width: 22%;
+    line-height: 26px;
+
+}
+.left{
+    width: 22%;
+    line-height: 26px;
+
+}
+.right p {
+    color: rgb(105, 115, 115);
+}
+.med p {
+    color: rgb(105, 115, 115);
+}
+.left p {
+    color: rgb(105, 115, 115);
+}
+.truk{
+    position: absolute;
+    color: rebeccapurple;
+    width: 1325px;
+    top: 100px;
+    font-size: 30px;
+
+}
+.arrow{
+    position: absolute;
+    top: 95px;
+    width: 450px;
+    color: rebeccapurple;
+    font-size: 30px;
+
+}
+.qu{
+    top: 95px;
+    font-size: 20px;
+right: 440px;
+color: white;
+position: absolute;
+border-radius: 130px;
+background-color: rebeccapurple;
+padding:8px;
+width: 40px;
+height: 40px;
+align-items: center;
+display: flex;
+justify-content: center;
+
+}
+
+/* end section two  */
+
+/* start section three */
+
+.sec3{
+    height: 550px;
+    display: flex;
+    align-items: center;
+justify-content:space-around;
+    position: relative;
+
+}
+.women{
+    position: absolute;
+
+
+}
+.child{
+
+}
+.men{
+}
+.men :hover{
+    transform: translate(4px, 4px);
+
+}
+.child :hover{
+    transform: translate(4px, 4px);
+}
+.women:hover{
+    transform: translate(4px, 4px);
+}
+.child p {
+    position: absolute;
+    color:white;
+left: 225px;
+bottom: 70px;
+font-size: 14px;
+}
+.child span{
+    font-size: 19px;
+}
+.women p {
+    position: absolute;
+    color:white;
+left:14px;
+bottom: 10px;
+font-size: 14px;
+}
+.women span{
+    font-size: 19px;
+}
+.men p {
+    position: absolute;
+    color:white;
+right: 460px;
+bottom: 69px;
+font-size: 16px;
+}
+.men span{
+    font-size: 21px;
+}
+.child img{
+    /* filter: contrast(75%); */
+    filter: brightness(60%);
+}
+.men img{
+    filter: brightness(60%);
+}
+.women img{
+    filter: brightness(60%);
+}
+ 
+/* end section three  */
+
+/* start section for 4 */
+
+.sec4{
+    height: 640px;
+    position: relative;
+display: flex;
+align-items: center;
+justify-content:space-evenly;
+background-color: rgb(237, 236, 236);
+line-height: 24px;
+padding: 200px;
+}
+.sec4 p{
+    color: rebeccapurple;
+    font-size: 20px;
+
+}
+.sec4 span{
+    color: rgb(161, 157, 157);
+    font-size: 15px;
+
+}
+.s1{
+    background-color: white;
+    height: 400px;
+    align-items: center;
+}
+.s2{
+    background-color: white;
+    height: 400px;
+}
+.s3{
+    background-color: white;
+    height: 400px;
+}
+.s1 p{
+    position: absolute;
+    left:  330px;
+    bottom: 160px;
+}
+.s2 p{
+    position: absolute;
+    left:  685px;
+    bottom: 160px;
+}
+.s3 p{
+    position: absolute;
+    right:  340px;
+    bottom: 160px;
+}
+.s1 img:hover{
+    transform: translate(4px, 4px);
+}
+.s2 img:hover{
+    transform: translate(4px, 4px);
+}
+.s3 img:hover{
+    transform: translate(4px, 4px);
+}
+.s4{
+    color: rebeccapurple;
+    font-size: 20px;
+    position: absolute;
+    right:  710px;
+    bottom: 21px;
+
+}
+.s5{
+    color: rgb(136, 132, 139);
+    font-size: 20px;
+    position: absolute;
+    right:  795px;
+    bottom: 21px;
+
+}
+.s6{
+    display: flex;
+    position: absolute;
+    top: 50px;
+}
+
+
+
+/* end of section for 4 */
+
+/* start section five 5 */
+
+.sec5{
+    height: 700px;
+    position: relative;
+    
+}
+.m{
+    position: absolute;
+    top: 120px;
+    left: 70px;
+}
+.mm{
+    position: absolute;
+    top: 50px;
+    right: 740px;
+}
+.mmm{
+position: absolute;
+bottom: 340px;
+right: 190px;
+
+
+}
+.mmm span{
+    font-size: 40px;
+    color: rebeccapurple;
+    position: absolute;
+
+top: -40px;
+    right: 25px;
+
+}
+.mmm p{
+    font-size: 15px;
+    color:  rgb(136, 132, 139);
+    line-height: 29px;
+}
+.shopno{
+    position: absolute;
+    bottom: 250px;
+    right: 370px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 35px;
+}
+.shopno :hover{
+    transform: translate(3px, 3px);
+
+}
+.shopno button{
+    text-decoration: none;
+    color:white;
+    background-color: rebeccapurple;
+font-size: 11PX;
+padding: 17px;
+
+
+border: none;
+}
+/* end of section five 5 */
+
+footer{
+
+height: 600px;
+display: flex;
+align-items: center;
+justify-content:space-around ;
+position: relative;
+}
+.fot ul {
+    list-style: none;
+    line-height: 33px;
+    font-size: 16px;
+    color:  rgb(136, 132, 139);
+}
+.fot span{
+    color: black;
+    font-size: 20px;
+
+}
+.fot1 ul {
+    list-style: none;
+    line-height: 33px;
+    font-size: 16px;
+    color:  rgb(136, 132, 139);
+}
+.fot2 ul {
+    list-style: none;
+    line-height: 33px;
+    font-size: 16px;
+    color:  rgb(136, 132, 139);
+}
+.fot3 ul {
+    list-style: none;
+    line-height: 33px;
+    font-size: 16px;
+    color:  rgb(136, 132, 139);
+}
+.fot3 span{
+    color: rebeccapurple;
+    font-size: 19px;
+}
+.fot3 .promo{
+    color: black;
+    font-size: 20px;
+}
+.fot4 ul {
+    list-style: none;
+    line-height: 33px;
+    font-size: 17px;
+    color: black;
+}
+.fot4 span{
+    font-size: 20px;
+}
+.fot{
+    position: absolute;
+    top: 65px;
+    left: 70px;
+
+}
+.fot1{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+.fot2{
+    position: absolute;
+    top: 100px;
+    left: 570px;
+}
+.fot3{
+    position: absolute;
+    top: 65px;
+    right: 480px;
+
+}
+.fot4{
+    position: absolute;
+    top: 65px;
+    right: 120px;
+}
+ footer h3{
+    font-size: 16px;
+    bottom: 47px;
+    color:  rgb(136, 132, 139);
+display: flex;
+position: absolute;
+}
+.fot3 img {
+
+}
+.back{
+    background-color:aqua;
+    width: 280px;
+    height: 90px;
+}
+
+.fot5{
+    position: absolute;
+    font-size: 19px;
+    color: rebeccapurple;
+    top: 106px;
+    right: 350px;
+}
+.fot6{
+    position: absolute;
+    font-size: 19px;
+    color: rebeccapurple;
+    top: 141px;
+    right: 345px;
+}
+.fot7{
+    position: absolute;
+    font-size: 19px;
+    color: rebeccapurple;
+    top: 171px;
+    right: 345px;
+}
+.subs{
+    position: absolute;
+    font-size: 19px;
+    bottom: 300px;
+    right:270px;
+}
+.fot8{
+
+position: absolute;
+bottom: 245px;
+right: 150px;
+}
+.fot8 input{
+border-style: none;
+font-size: 17px;
+    outline: none;
+
+}
+.email{
+   
+    border: 1px solid rgb(136, 132, 139) ;
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    bottom: 230px;
+    right: 130px;
+}
+
+
+.email :hover{
+transform: translate(3px, 3px);
+
+}
+.email button{
+text-decoration: none;
+color:white;
+background-color: rebeccapurple;
+font-size: 11PX;
+padding: 18px;
+position: absolute;
+right: 0px;
+border: none;
+}
+/* end of fooooter and first page */
+
+    /* الحمد لله  */
+
+
+    /* start page about  */
+    .about {
+    height: 700px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    }
+    .nn span {
+    position: absolute;
+    font-size: 24px;
+    top: 150px;
+    right: 410px;
+
+    }
+
+    .nn p{
+    font-size: 16px;
+    color: rgb(182, 176, 176);
+    line-height: 29px;
+    top: 200px; 
+    position: absolute;
+    right: 100px;
+    }
+    .n{
+    position: absolute;
+    left: 90px;
+    }
+
+    /* end of section one in page about */
+
+    /* start section two the team  */
+
+    .team{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    height: 600px;
+    position: relative;
+    }
+    .team h1 {
+position: absolute;
+    top: 80px;
+    right: 720px;
+    color: black;
+
+}
+.team p{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.team img{
+    border-radius: 90px;
+    position: absolute;
+    top: 150px;
+}
+.tmt{
+    font-size: 15px;
+    color: rgb(182, 176, 176);
+}
+.tm1 h4{
+    position: absolute;
+    bottom: 90px;
+    line-height: 30px;
+    color: rgb(182, 176, 176);
+font-size: 13px;
+}
+.tm2 h4{
+    position: absolute;
+    bottom: 90px;
+    line-height: 30px;
+    color: rgb(182, 176, 176);
+font-size: 13px;
+}
+.tm3 h4{
+    position: absolute;
+    bottom: 90px;
+    line-height: 30px;
+    color: rgb(182, 176, 176);
+font-size: 13px;
+}
+.tm4 h4{
+    position: absolute;
+    bottom: 94px;
+    line-height: 30px;
+    color: rgb(182, 176, 176);
+font-size: 13px;
+
+}
+/* end section two the team  */
+
+/* مكررررر */
+
+.shop{
+    height: 970px;
+    position: relative;
+display: flex;
+align-items: center;
+justify-content:space-between;
+background-color:white;
+line-height: 24px;
+padding: 260px;
+}
+.shop p{
+    color: rebeccapurple;
+    font-size: 20px;
+
+}
+.shop span{
+    color: rgb(161, 157, 157);
+    font-size: 15px;
+
+}
+.shop1{
+    background-color: white;
+    height: 400px;
+    align-items: center;
+    position: absolute;
+    right: 725px;
+    top: 140px;
+}
+.shop2{
+    background-color: white;
+    height: 400px;
+    position: absolute;
+    right: 380px;
+    top: 140px;
+}
+.shop3{
+    background-color: white;
+    height: 400px;
+    position: absolute;
+  
+    right: 40px;
+    top: 140px;
+
+}
+.shop1 p{
+    position: absolute;
+    right:  83px;
+    bottom: 60px;
+}
+.shop2 p{
+    position: absolute;
+    right:  70px;
+    bottom: 65px;
+}
+.shop3 p{
+    position: absolute;
+    right:  75px;
+    bottom: 60px;
+}
+.shop1 img:hover{
+    transform: translate(4px, 4px);
+}
+.shop2 img:hover{
+    transform: translate(4px, 4px);
+}
+.shop3 img:hover{
+    transform: translate(4px, 4px);
+}
+.shop4{
+position: absolute;
+    top: 31px;
+    left: 483px;
+font-size: 18px;
+}
+
+.shop5 {
+    width: 110px;
+    height: 40px;
+border: none;
+position: absolute;
+right: 160px;
+top: 50px;
+
+}
+.shop5 select{
+    color: black;
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+border:  rgb(212, 205, 205);
+outline: none;
+padding: 10px;
+-webkit-appearance:none;
+
+    background-color: rgb(198, 189, 189);
+    position: absolute;
+    right: 50px;
+
+}
+.ar{
+    position: absolute;
+    font-size: 17px;
+    color: black;
+    right: 69px;
+    top: 3px;
+}
+.shop5:hover{
+    transform: translate(1px, 1px);
+}
+.shop6 {
+    width: 140px;
+    height: 40px;
+border: none;
+position: absolute;
+right: 160px;
+top: 50px;
+
+}
+.shop6 select{
+    color: black;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+border:  rgb(212, 205, 205);
+outline: none;
+padding: 10px;
+-webkit-appearance:none;
+
+    background-color: rgb(198, 189, 189);
+    position: absolute;
+    right: -120px;
+
+}
+.arr{
+    position: absolute;
+    font-size: 17px;
+    color: black;
+    right:-104px;
+    top: 3px;
+}
+.shop6:hover{
+    transform: translate(1px, 1px);
+}
+
+
+.shop7{
+    background-color: white;
+    height: 400px;
+    align-items: center;
+    position: absolute;
+bottom:0px ;
+right: 40px;
+
+}
+.shop8{
+    background-color: white;
+    height: 400px;
+    position: absolute;
+    right: 380px;
+    bottom:0px ;
+}
+.shop9{
+    background-color: white;
+    height: 400px;
+    position: absolute;
+    right: 725px;
+
+    bottom:0px ;
+
+}
+.shop7 p{
+    position: absolute;
+    right:  83px;
+    bottom: 60px;
+}
+.shop8 p{
+    position: absolute;
+    right:  70px;
+    bottom: 65px;
+}
+.shop9 p{
+    position: absolute;
+    right:  75px;
+    bottom: 60px;
+}
+.shop7 img:hover{
+    transform: translate(4px, 4px);
+}
+.shop8 img:hover{
+    transform: translate(4px, 4px);
+}
+.shop9 img:hover{
+    transform: translate(4px, 4px);
+}
+
+.tab{
+    position: relative;
+    height: 800px;
+
+
+}
+table, th, td {
+    border: 1px solid rgb(170, 163, 163);
+    border-collapse: collapse;
+  }
+table{
+    width: 80%;
+    position: absolute;
+    right: 130px;
+    border-bottom: none;
+
+}
+table,th{
+    height: 60px;
+
+}
+
+
+/* مكرررررر */
+
+.shopp{
+    height: 900px;
+    position: relative;
+display: flex;
+align-items: center;
+justify-content:space-between;
+background-color:white;
+line-height: 24px;
+padding: 260px;
+}
+.shopp p{
+    color: rebeccapurple;
+    font-size: 20px;
+
+}
+.shopp span{
+    color: rgb(161, 157, 157);
+    font-size: 15px;
+
+}
+
+.shop10{
+    background-color: white;
+    height: 400px;
+    align-items: center;
+    position: absolute;
+    right: 725px;
+    top: 30px;
+}
+.shop20{
+    background-color: white;
+    height: 400px;
+    position: absolute;
+    right: 380px;
+    top: 30px;
+}
+.shop30{
+    background-color: white;
+    height: 400px;
+    position: absolute;
+  
+    right: 40px;
+    top: 30px;
+
+}
+.shop10 p{
+    position: absolute;
+    right:  83px;
+    bottom: 60px;
+}
+.shop20 p{
+    position: absolute;
+    right:  70px;
+    bottom: 65px;
+}
+.shop30 p{
+    position: absolute;
+    right:  75px;
+    bottom: 60px;
+}
+.shop10 img:hover{
+    transform: translate(4px, 4px);
+}
+.shop20 img:hover{
+    transform: translate(4px, 4px);
+}
+.shop30 img:hover{
+    transform: translate(4px, 4px);
+}
+
+
+.shop70{
+    background-color: white;
+    height: 400px;
+    align-items: center;
+    position: absolute;
+bottom:30px ;
+right: 40px;
+
+}
+.shop80{
+    background-color: white;
+    height: 400px;
+    position: absolute;
+    right: 380px;
+    bottom:30px ;
+}
+.shop90{
+    background-color: white;
+    height: 400px;
+    position: absolute;
+    right: 725px;
+
+    bottom:30px ;
+
+}
+.shop70 p{
+    position: absolute;
+    right:  83px;
+    bottom: 60px;
+}
+.shop80 p{
+    position: absolute;
+    right:  70px;
+    bottom: 65px;
+}
+.shop90 p{
+    position: absolute;
+    right:  75px;
+    bottom: 60px;
+}
+.shop70 img:hover{
+    transform: translate(4px, 4px);
+}
+.shop80 img:hover{
+    transform: translate(4px, 4px);
+}
+.shop90 img:hover{
+    transform: translate(4px, 4px);
+}
+
+
+.cat{
+    width: 280px;
+    height: 200px;
+border: 2px rgb(192, 179, 179) solid;
+position: absolute;
+left: 70px;
+top: 30px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+
+}
+.cat p{
+    color:rgb(89, 59, 120);
+    font-size: 14px;
+    line-height:30px;
+}
+.cat h3{
+    position: absolute;
+    top: 13px;
+    left: 38px;
+}
+.cat span{
+    color: black;
+}
+.rang{
+    width: 280px;
+    height: 500px;
+    position: relative;
+    left: -190px;
+    top: 45px;
+    border: 2px rgb(192, 179, 179) solid;
+
+
+
+}
+.tit{
+    position: absolute;
+    bottom: -10px;
+    right: 680px;
+    font-size: 27px;
+
+}
+
+.single{
+    height: 650px;
+    position: relative    ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.sing{
+position: absolute;
+top: 90px;
+right: 240px;
+    line-height: 34px;
+    color: rgb(162, 157, 149);
+}
+.sin{
+    position: absolute;
+    top: 90px;
+    left: 110px;
+
+}
+.sing h2{
+    color: black;
+
+}
+.s50{
+    color: rebeccapurple;
+    font-size: 19px;
+    
+}
+.radio{
+    width: 450px;
+    height: 70px;
+    position: absolute;
+    right: 260px;
+    bottom: 220px;
+    padding: 7px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-size: 19px;
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.left-{
+    border: 2px solid rgb(193, 186, 201);
+    width: 35px;
+    height: 40px;
+    position: absolute;
+    bottom: 175px;
+    right: 660px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.left-:hover{
+    transform: translate(1.5px,1.5px);
+background-color: rebeccapurple;}
+.midd{
+    border: 2px solid rgb(193, 186, 201);
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    bottom: 175px;
+    right: 617px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.righttt{
+    border: 2px solid rgb(193, 186, 201);
+    width: 35px;
+    height: 40px;
+    position: absolute;
+    bottom: 175px;
+    right: 584px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.righttt:hover{
+    transform: translate(1.5px,1.5px);
+    background-color: rebeccapurple;
+}
+
+.addcart{
+    position: absolute;
+    bottom: 100px;
+    right: 540px;
+padding: 7px;
+display: flex;
+justify-content: center;
+height: 50px;
+}
+.addcart :hover{
+    transform: translate(4px, 4px);
+
+}
+.addcart button{
+    text-decoration: none;
+    color:white;
+    background-color: rebeccapurple;
+font-size: 12PX;
+padding: 10px;
+border: none;
+width: 160px;
+}
+.left--{
+    border: 2px solid rgb(193, 186, 201);
+    width: 35px;
+    height: 40px;
+    position: absolute;
+top: 100px;
+
+    right: 360px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.left--:hover{
+    transform: translate(1px,1px);
+background-color: rebeccapurple;}
+.middd{
+    border: 2px solid rgb(193, 186, 201);
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    top: 100px;
+    right: 317px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.rightttt{
+    border: 2px solid rgb(193, 186, 201);
+    width: 35px;
+    height: 40px;
+    position: absolute;
+    top: 100px;
+    right: 283px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.rightttt:hover{
+    transform: translate(1px,1px);
+    background-color: rebeccapurple;
+}
+.x{
+    border: 1px solid rebeccapurple;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 53px;
+    top: 100px;
+display: flex;
+justify-content: center;
+align-items:center;
+background-color: rebeccapurple;
+color: white;
+font-size: 13px;
+
+
+}
+.xx{
+    border: 1px solid rebeccapurple;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 53px;
+    top: 230px;
+display: flex;
+justify-content: center;
+align-items:center;
+background-color: rebeccapurple;
+color: white;
+font-size: 13px;
+
+
+}
+.left---{
+    border: 2px solid rgb(193, 186, 201);
+    width: 35px;
+    height: 40px;
+    position: absolute;
+top: 230px;
+
+    right: 360px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.left---:hover{
+    transform: translate(1px,1px);
+background-color: rebeccapurple;}
+.midddd{
+    border: 2px solid rgb(193, 186, 201);
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    top: 230px;
+    right: 317px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.righttttt{
+    border: 2px solid rgb(193, 186, 201);
+    width: 35px;
+    height: 40px;
+    position: absolute;
+    top: 230px;
+    right: 283px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.righttttt:hover{
+    transform: translate(1px,1px);
+    background-color: rebeccapurple;
+}
+.update{
+    border: 1px solid rebeccapurple;
+    height: 40px;
+width: 220px;
+background-color: rebeccapurple;
+color: white;
+font-size: 11px;
+position:absolute;
+top: 440px;
+left: 170px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.update:hover{
+    transform: translate(1px,1px);
+}
+.con{
+    border: 1px solid rebeccapurple;
+    height: 40px;
+width: 220px;
+background-color: white;
+color: rebeccapurple;
+font-size: 12px;
+position:absolute;
+top: 440px;
+left: 420px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.con:hover{
+    transform: translate(2px,2px);
+}
+.cart{
+    position: absolute;
+    right: 70px;
+    top: 440px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-size: 14px;
+}
+.sop{
+    position: absolute;
+    right: 70px;
+    top: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-size: 19px;
+}
+.sop p{
+    position: absolute;
+    right: 250px;
+}
+.sop span{
+    position: absolute;
+    right: 80px;
+}
+.sopp{
+    position: absolute;
+    right: 70px;
+    top: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-size: 19px;
+}
+.sopp p{
+    position: absolute;
+    right: 275px;
+}
+.sopp span{
+    position: absolute;
+    right: 80px;
+}
+.check{
+    position: absolute;
+    background-color: rebeccapurple;
+    color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 240px;
+height: 50px;
+right: 150px;
+top: 620px;
+border-radius: 7px;
+
+}
+.check a{
+    text-decoration: none;
+    color: white;
+}
+.check:hover{
+    transform: translate(2px,2px);
+}
+.copon{
+    position: absolute;
+    left: 165px;
+    top: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-size: 19px;
+}
+.cop{
+    position: absolute;
+    left: 165px;
+    top: 575px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(144, 136, 136);
+    font-size: 13px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.copp{
+    position: absolute;
+    font-size: 24px;
+    height: 40px;
+    width: 330px;
+    top: 620px;
+    left: 165px;
+  border: 2px solid rgb(183, 172, 172);
+  border-radius: 3px;
+
+}
+.copp input{
+    outline: none;
+    border-style: none;
+}
+
+.apply{
+    position: absolute;
+    background-color: rebeccapurple;
+    color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 200px;
+height: 45px;
+left: 540px;
+top: 620px;
+border-radius: 7px;
+
+}
+.apply a{
+    text-decoration: none;
+    color: white;
+}
+.apply:hover{
+    transform: translate(2px,2px);
+}
+.code{
+    position: relative;
+    height: 1050px;
+
+}
+.codee{
+    width: 450px;
+    height:160px;
+    position: absolute;
+    right: 110px;
+    top: 90px;
+    border: 2px solid rgb(175, 168, 168);
+
+}
+.coppp{
+    position: absolute;
+    top: 30px;
+    right: 150px;
+    font-size: 13px;
+    color: black;
+    font-family:cursive;
+}
+.co{
+    position: absolute;
+    font-size: 24px;
+    height: 40px;
+    width: 230px;
+    top: 65px;
+    right: 175px;
+  border: 2px solid rgb(183, 172, 172);
+  border-radius: 3px;
+
+}
+.co input{
+    outline: none;
+    border-style: none;
+}
+.app{
+    position: absolute;
+    background-color: rebeccapurple;
+    color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100px;
+height: 40px;
+right: 76px;
+top: 65px;
+
+}
+.app a{
+    text-decoration: none;
+    color: white;
+}
+.app:hover{
+    transform: translate(2px,2px);
+}
+.ccc{
+    position: absolute;
+    top: 45px;
+    right: 415px;
+    font-size: 19px;
+
+}
+.cc{
+    position: absolute;
+    top:285px;
+    right: 440px;
+    font-size: 19px;
+
+}
+.order{
+
+position: absolute;
+top: 330px;
+right: 110px;
+height: 600px;
+width: 445px;
+border: 2px solid gray;
+
+}
+
+.prod{
+    width: 350px;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.pro{
+    width: 350px;
+    position: absolute;
+    top: 110px;
+    right: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+color: darkgray;
+}
+.proo{
+    width: 350px;
+    position: absolute;
+    top: 160px;
+    right: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+color: darkgray;
+}
+
+.prooo{
+    width: 350px;
+    position: absolute;
+    top: 210px;
+    right: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.direct{
+    width: 350px;
+    height: 45px;
+    position: absolute;
+    top: 240px;
+    right: 50px;
+    border: 1px solid darkgray;
+color: rebeccapurple;
+display: flex;
+align-items: center;
+padding-left: 7px;
+}
+.directt{
+    width: 350px;
+    height: 45px;
+    position: absolute;
+    top: 300px;
+    right: 50px;
+    border: 1px solid darkgray;
+color: rebeccapurple;
+display: flex;
+align-items: center;
+padding-left: 7px;
+}
+.directtt{
+    width: 350px;
+    height: 45px;
+    position: absolute;
+    top: 360px;
+    right: 50px;
+    border: 1px solid darkgray;
+color: rebeccapurple;
+display: flex;
+align-items: center;
+padding-left: 7px;
+}
+.placee{
+    width: 350px;
+    height: 45px;
+    position: absolute;
+    top: 460px;
+    right: 50px;
+border: 1px solid rebeccapurple;
+background-color: rebeccapurple;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.placee a {
+    text-decoration: none;
+}
+.placee h5{
+    color: white;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.placee :hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+.blong{
+position: relative;
+top: 90px;
+height: 840px;
+left: 90px;
+width: 800px;
+border: 2px solid darkgrey;
+
+}
+.bling{
+    position: absolute;
+    top: -50px;
+}
+.country{
+    position: absolute;
+    top: 50px;
+left: 40px;
+
+}
+.country span{
+    color: red;
+
+}
+.selc{
+    position: absolute;
+    width:650px;
+    height: 45px;
+    border: 1px solid darkgrey;
+    top: 80px;
+    left: 35px;
+align-items: center;
+display: flex;
+color: darkgrey;
+}
+.abc{
+    position: absolute;
+    top:95px;
+    left: 650px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.first{
+    position: absolute;
+    top: 140px;
+    left: 37px;
+
+
+}
+.first span{
+    color: red;
+}
+.last{
+    position: absolute;
+    top: 140px;
+    left: 390px;
+
+
+}
+.last span{
+    color: red;
+}
+.firstt{
+    width: 250px;
+    height: 45px;
+    position: absolute;
+    top: 170px;
+    left: 37px;
+    border: 1px solid darkgrey;
+}
+
+.lastt{
+    width: 250px;
+    height: 45px;
+    position: absolute;
+    top: 170px;
+    left: 390px;
+    border: 1px solid darkgrey;
+}
+.firsttt{
+    top: 240px;
+    left: 37px;
+    position: absolute;
+
+}
+
+.camp{
+    width: 650px;
+    height: 45px;
+    position: absolute;
+    top: 270px;
+    left: 37px;
+    border: 1px solid darkgrey;
+}
+.adres{
+    top: 340px;
+    left: 37px;
+    position: absolute;
+
+}
+.adres span{
+    color: red;
+
+}
+
+.selcc{
+    position: absolute;
+    width:650px;
+    height: 45px;
+    border: 1px solid darkgrey;
+    top: 380px;
+    left: 37px;
+align-items: center;
+display: flex;
+color: darkgrey;
+font-size: 13px;
+}
+.selccc{
+    position: absolute;
+    width:650px;
+    height: 45px;
+    border: 1px solid darkgrey;
+    top: 460px;
+    left: 37px;
+align-items: center;
+display: flex;
+color: darkgrey;
+font-size: 13px;
+}
+
+.stat{
+    position: absolute;
+    top: 540px;
+    left: 37px;
+
+}
+.stat span{
+    color: red;
+
+}
+.statt{
+    position: absolute;
+    top: 540px;
+    left: 380px;
+
+}
+.statt span{
+    color: red;
+
+}
+.state{
+    width: 310px;
+    height: 45px;
+    border: 1px solid darkgray;
+    position: absolute ;
+    top: 580px;
+    left: 37px;
+
+}
+
+.statee{
+    width: 310px;
+    height: 45px;
+    border: 1px solid darkgray;
+    position: absolute ;
+    top: 580px;
+    left: 380px;
+
+}
+
+.area{
+    position: absolute;
+    top: 630px;
+    width: 300px;
+    height: 200px;
+    left: 37px;
+}
+
+
+.ranging{position:absolute;
+    left: 10px;
+    top:10px;
+    
+    }
+    
+    .ranging1{position: absolute; 
+        left:100px;
+    }
+    
+    
+    .ranging1{
+        left: : 30px;
+    top: 10;}
+       .ranging h4{
+        position: absolute;
+        font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section thanks */
+
+
+.thanks{
+position: relative;
+height: 520px;
+
+
+
+}
+
+.than{
+position: absolute;
+top: 100px;
+right: 750px;
+
+}
+.thankyou{
+    position: absolute;
+    top: 190px;
+    right: 610px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 57px;
+    font-weight:lighter;
+opacity: 0.9;
+}
+.thankyou span{
+    font-size: 34px;
+    
+}
+.thanky{
+    position: absolute;
+    top: 280px;
+    right: 610px;
+    opacity: 0.8;
+    font-size: 16px;
+    color: darkgray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.thann{
+    position: absolute;
+    background-color: rebeccapurple;
+    color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 200px;
+height: 45px;
+right: 675px;
+top: 350px;
+border-radius: 4px;
+
+}
+.thann a{
+    text-decoration: none;
+    color: white;
+}
+
+.thann:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+/* end section thanks  */
